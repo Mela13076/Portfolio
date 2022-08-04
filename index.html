@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal PortFolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <script src="extenstions.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="lightbox.min.js"></script>
+    <script src="https://kit.fontawesome.com/c5c2e59f68.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navigation bar ontop of banner-->
+
+    <header>
+        <a href="#" class="logo">PortFolio</a>
+
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+
+
+    <!--Banner-->
+    <section class="banner" id="home">
+        <div class="textbox">
+            <h2>Hello, I'm <br> <span>Amelia</span></h2>
+            <h3>I'm an Undergraduate at TAMUK</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!--About me -->
+    <section class="about-me" id="about">
+        <div class="heading white-heading">
+            <h2><span>About Me</span></h2>
+        </div>
+        <div class="about-content">
+            <div class="left-cont">
+                <img src="extras/me-port4.png" alt="Amelia in the Colorado Mountains">
+                <p>an image goes here </p>
+            </div>
+            <div class="right-cont">
+                <h3>Amelia R. Trevino</h2>
+                <h5>Computer Science & Eletrical Engineering TAMUK Undergrad '23 </h3>
+                <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, 
+                blanditiis cum quasi mollitia cupiditate magni delectus rerum vero sed veniam debitis maiores sit ad natus aspernatur quis. Laudantium, provident sit.</p>
+                <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit esse dolores recusandae praesentium assumenda, qui, non rerum odit quae vel eveniet? 
+                Quasi fuga mollitia ducimus blanditiis voluptatibus unde dolores!</p>
+                <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit esse dolores recusandae praesentium assumenda, qui, non rerum odit quae vel eveniet? 
+                    Quasi fuga mollitia ducimus blanditiis voluptatibus unde dolores!</p>
+                    <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit esse dolores recusandae praesentium assumenda, qui, non rerum odit quae vel eveniet? 
+                        Quasi fuga mollitia ducimus blanditiis voluptatibus unde dolores!</p>
+                <div class="about-bottom">
+                    <a href="extras/resume-2022.pdf" class="btn">Resume Download</a>
+                    <div class="about-bt-cont">
+                        <b>Email:</b> trevinoamelia25@gmail.com<br>
+                    </div>
+                    <div class="about-bt-cont">
+                        <b>Age:</b> 21 <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!--certifictes section-->
+    <section class="certificates" id="certificates">
+        <div class="heading-cert blue-heading">
+            <h2><span>Certificates</span></h2>
+            <p>Certificates earned for completing coding courses</p>
+        </div>
+        <div class="content">
+            <a href="extras/html-css-cert.jpg" data-lightbox="cert1" id="click">
+                <div class="boxes-cert">
+                    <i class="fa-brands fa-html5 fa-4x"></i>
+                    <h3>Web Design HTML/CSS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, laboriosam.</p>
+                </div>
+            </a>
+            <a href="extras/me-port.png" data-lightbox="cert2" id="click">
+                <div class="boxes-cert">
+                    <i class="fa-brands fa-js fa-4x"></i>
+                    <h3>JS Coding Fundamentals</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, laboriosam.</p>
+                </div>
+            </a>
+            <a href="extras/me-port.png" data-lightbox="cert3" id="click">
+                <div class="boxes-cert">
+                    <i class="fa-solid fa-c fa-4x"></i>
+                    <i class="fa-solid fa-plus" id="plus"></i>
+                    <i class="fa-solid fa-plus" id="plus"></i>
+                    <h3>Cpp class taken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, laboriosam.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!--Project section-->
+    <section class="projects" id="projects">
+        <div class="heading white-heading">
+            <h2><span>Projects</span></h2>
+            <p>Showcasing some of my coding projects</p>
+        </div>
+        <div class="content-pro">
+            <div class="boxes-pro">
+                <a href="https://replit.com/@treviame/ATM-system#main.cpp" target="_blank">
+                    <img src="extras/atm-img.png" alt="">
+                    <p>C++ ATM bank system</p>
+                </a>
+            </div>
+            <div class="boxes-pro">
+                <a href="https://mela13076.github.io/Etsy-survey-form/" target="_blank">
+                    <img src="extras/Etsy survey form.png" alt="">
+                    <p>After purchase survey form</p>
+                </a>
+            </div>
+            <div class="boxes-pro">
+                <a href="" target="_blank">
+                    <img src="extras/port-img.png" alt="">
+                    <p>Personal Portfolio</p>
+                </a>
+            </div>
+            <div class="boxes-pro">
+                <a href="extras/DB screenshot.png" target="_blank" data-lightbox="gui" id="click" data-title="SQL Datatbase & C++ GUI: TAMUK Courses">
+                    <img src="extras/dbproject.png" alt="">
+                    <p>SQL Database & C++ GUI: TAMUK Courses</p>
+                    <a href="extras/db-project.jpg"  data-lightbox="gui" data-title="SQL Datatbase & C++ GUI: TAMUK Courses"></a>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contanct section layout-->
+    <section class="contact" id="contact">
+        <div class="heading-con blue-heading">
+            <h2><span>Contact Me</span></h2>
+            <p>Feel free to contact me anytime!</p>
+        </div>
+        <div class="content-con">
+            <div class="contactInfo boxes-con">
+                <h2 class="introCon">Contact Info</h2>
+                <p class="introPara">Always avaliable for new opportunites!</p>
+                <div class="box-contactInfo">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <div class="infoText address">
+                            <h3>Address</h3>
+                            <address> Amelia R Trevino <br>1482 Seale Ave. A107 <br> Kingsville, Tx<br> 78363 </address>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="infoText">
+                            <h3>Phone Number:</h3>
+                            <p>(956)320-5000</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="infoText">
+                            <h3>Email</h3>
+                            <p>Trevinoamelia25@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3 class="socialContact">Social Contacts</h3>
+                    <div class="boxes-social">
+                        <div class="icon" target="_blank">
+                            <a href="https://www.linkedin.com/in/amelia-trevino-240a47222/">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="icon" target="_blank">
+                            <a href="https://github.com/Mela13076">
+                                <i class="fa-brands fa-github-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="message-form boxes-con">
+                <h2>Message Me</h2>
+                <form>
+                    <label for="name" id="name-label">Full Name</label>
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="input"
+                        placeholder="Enter your full name"
+                        required
+                    />
+
+                    <label id="email-label" for="email">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="input"
+                        placeholder="Enter your email"
+                        required
+                    />
+
+                    <label id="message" for="message">Message</label>
+                    <textarea
+                    id="message"
+                    class="input-textarea"
+                    name="message"
+                    placeholder="Enter your message here"></textarea>
+
+                    
+                    <button type="submit" id="submit" class="submit-button">
+                    Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+   
+</body>
+</html>
