@@ -339,8 +339,10 @@ header.sticky ul li a{
     flex-wrap: wrap;
 }
 
+
 .contactInfo{
     flex: 40;
+    padding-left: 20px;
 }
 
 .message-form{
