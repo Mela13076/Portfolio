@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 
 section{
@@ -163,7 +164,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 80px;
+    padding: 20px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -203,7 +204,7 @@ header ul li a{
 
 header.sticky{
     background-color: #5ce1e6;
-    padding: 30px 80px;
+    padding: 20px 80px;
     box-shadow: 0 5px 20px rgba(244, 112, 187,0.4);
 }
 
@@ -441,6 +442,13 @@ header.sticky ul li a{
 .contactInfo .boxes-social .icon:active{
     color:#5ce1e6;
     
+}
+
+footer.copyright{
+    background:#f470bb;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
